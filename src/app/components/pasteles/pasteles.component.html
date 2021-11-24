@@ -1,0 +1,20 @@
+<div class="container-fluid">
+    <h1 class="text-center fw-bold font_titles pt-3" >Demonios</h1>
+    <p class="text-center ">Lista de demonios con partes del cuerpo de Hyakkimaru</p>
+    <div class ="contenedor_cards" >
+        <div  class="contenedor_card" *ngFor="let pastel of pasteles" >
+            <div class="d-flex flex-column">
+                <div>
+                    <div class="box">
+                        <img class="cont-img-cards"  scr="src\assets\pastel-tres-leches.jpg" >
+                    </div>
+                    <h4 class="card-titles text-center" >{{pastel.nombre}}</h4>
+                    <p class="no-space text-center">{{pastel.ubicacion}}</p>
+                    <p class="no-space text-center">{{pastel.estado}}</p>   
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    <div>
+</div>

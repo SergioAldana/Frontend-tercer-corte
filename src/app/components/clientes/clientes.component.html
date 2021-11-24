@@ -1,0 +1,19 @@
+<div class="container-fluid">
+    <h1 class="text-center fw-bold font_titles pt-3" >Partes</h1>
+    <p class="text-center ">Lista de partes de Hyakkimaru</p>
+    <div class ="contenedor_cards" >
+        <div  class="contenedor_card" *ngFor="let cliente of clientes" >
+            <div class="d-flex flex-column">
+                <div>
+                    <div class="box">
+                        <img class="cont-img-cards"  scr="..\assets\perfil.png" >
+                    </div>
+                    <h4 class="card-titles text-center" >{{cliente.parte}}</h4>
+                    <p class="no-space text-center">{{cliente.estado}}</p>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    <div>
+</div>

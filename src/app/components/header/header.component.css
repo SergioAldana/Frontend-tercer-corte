@@ -1,0 +1,7 @@
+.imgLogo{
+    height: 50rem;
+    width: 100%;
+    background-image:url("src\assets\Hyakkimaru.jpg");
+    position: static;
+    background-size: auto;
+}

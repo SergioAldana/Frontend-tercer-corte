@@ -1,0 +1,19 @@
+<div class="container-fluid">
+    <h1 class="text-center fw-bold font_titles pt-3" >Peleas</h1>
+    <p class="text-center ">Lista de peleas entre Hyakkimaru y los demonios</p>
+    <div class ="contenedor_cards" >
+        <div  class="contenedor_card" *ngFor="let pelea of peleas" >
+            <div class="d-flex flex-column">
+                <div>
+                    <div class="box">
+                        <img class="cont-img-cards"  scr="src\assets\pastel-tres-leches.jpg" >
+                    </div>
+                    <h4 class="card-titles text-center" >{{pelea.ganador}}</h4>
+                    <p class="no-space text-center">{{pelea.ubicacion}}</p>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    <div>
+</div>
